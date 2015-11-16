@@ -1,0 +1,111 @@
+.wrapper {
+    max-width: 640px;
+}
+.ready-country span{
+    display: none;
+}
+
+.question{
+    display: none;
+}
+
+.header-content__currency img{
+    margin-right: 10px;
+}
+
+.saved-items-link{
+    display: none !important;
+}
+.cart-link{
+    font-size: 16px;
+    font-size: 1rem;
+
+}
+.nav_container__main-menu__item._search{
+    position: relative;
+}
+.nav_container__main-menu__item__input {
+    width: 0;
+    border: none;
+    transition: width .5s;
+    position: absolute;
+    right: 34px;
+    z-index: 3;
+}
+
+.nav_container__main-menu__item__input._visible{
+    width: 190px;
+    border-left: 1px solid #d2d0d0;
+
+
+}
+
+.nav_container__main-menu__item__submit{
+    border-left: 1px solid #d2d0d0;
+}
+
+
+.submenu .submenu__item:nth-child(3){
+    display: none;
+}
+
+.slider-wrapper{
+    height: 400px;
+}
+.slide-img {
+    width: 50%;
+}
+.slide-descr__heading{
+    font-size: 2.25rem;
+}
+.slide-descr__text{
+    font-size: 1.13rem;
+    line-height: 1.8rem;
+}
+
+.about__element{
+    width: 22%;
+    height: 110px;
+    font-size: 1.85rem;
+}
+
+.about__element__img {
+    height: 100%;
+}
+
+.about__heading{
+    margin: 50px 0;
+}
+
+.product__descr {
+    height: 140px;
+}
+.controls._product{
+    display: none;
+}
+
+.product__descr__text{
+    display: none;
+}
+
+.additions__element__title{
+    font-size: 1.5rem;
+
+}
+.additions__element {
+    width: 26%;
+    padding: 0 20px;
+}
+
+.twitter__text{
+    font-size: 1.38rem;
+}
+
+.footer-block {
+    width: 21.6%;
+
+}
+
+.footer__about-us__heading{
+    font-size:1.87rem;
+}

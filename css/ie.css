@@ -1,0 +1,32 @@
+.product__descr__text{
+    display: none;
+    background: url('../img/ie-bg.png');
+}
+
+.product__descr:hover .product__descr__text{
+    display: block;
+}
+
+.locator__input-zip{
+
+    line-height: 60px;
+}
+.newslatter-email-input{
+
+    line-height: 35px;
+}
+
+
+.nav_container__main-menu__item__input{
+
+    line-height: 36px;
+
+}
+
+
+.livechat__heading:hover{
+    cursor: auto;
+}
+.nav_container__main-menu__item__submit{
+    border-left: none;
+}

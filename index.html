@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media = "handled, screen and (max-width: 850px) ">
+    <link rel="stylesheet" href="css/mobile.css" media = "handled, screen and (max-width: 570px)">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <title>Shop Chop</title>
+</head>
+<body>
+<header>
+    <div class="tabs">
+        <div class="tabs__container wrapper">
+            <span class="tabs__container__tab _unishop _act">Unishop</span>
+            <span class="tabs__container__tab _twister">Twister</span>
+            <span class="tabs__container__tab _rockstar">RockStar`s</span>
+            <div class="tabs__container__sticker">
+                <span>Super New Stuff is here!!</span>
+            </div>
+        </div>
+    </div>
+    <div class="header-content wrapper clear-after">
+        <div class="header-content__currency float-l">
+
+            <form action="#" method="post" name="selectCurr">
+                <div class="ready-currency-country">
+                    <span class="ready-country"></span>
+                    <span class="ready-currency"></span>
+                </div>
+                <div class="currency-country" data-name="selectCountry">
+                    <div class="currency-country__selected">
+
+                    </div>
+                    <div class="currency-country__currency">
+                        <p>Change currency:</p>
+                        <ul class="dropable curr-drop" data-name="currency">
+                            <li class="curr-drop__el" data-value="abc-val1">$ GBP</li>
+                            <li class="curr-drop__el" data-value="abc-val2">$ USD</li>
+                            <li class="curr-drop__el" data-value="abc-val3">$ CAD</li>
+                        </ul>
+                    </div>
+                    <div class="currency-country__country">
+                        <p>Other country sites</p>
+                        <ul>
+                            <li class="currency-country__country__el" data-value="uk"><img src="img/country/uk.png" alt="uk"><span>United Kingdom</span></li>
+                            <li class="currency-country__country__el" data-value="usa"><img src="img/country/usa.png" alt="usa"><span>Sates</span></li>
+                            <li class="currency-country__country__el" data-value="fr"><img src="img/country/fr.png" alt="france"><span>France</span></li>
+                            <li class="currency-country__country__el" data-value="it"><img src="img/country/it.png" alt="italy"><span>Italy</span></li>
+                            <li class="currency-country__country__el" data-value="aust"><img src="img/country/aust.png" alt="australia"><span>Australia</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </form>
+
+
+
+        </div>
+
+        <nav class="header-content__cart float-r">
+            <ul>
+                <li class="account-link"><a href="#">My Account</a></li>
+                <li class="saved-items-link"><a href="#">Saved items</a></li>
+                <li class="cart-link">Cart <span class="cart-count">0</span> <span class="cart-summ">$0.00</span></li>
+            </ul>
+        </nav>
+        <div class="header-content__logo ">
+            <h1 class="header-content__logo__text">UNISHOP</h1>
+            <h2 class="header-content__logo__subtext">ultimate way to shop online</h2>
+        </div>
+
+    </div>
+    <div class="nav_container">
+        <nav class="nav_container__main-menu wrapper">
+            <div class="hamburger"></div>
+            <ul class="nav_container__main-menu__list clear-after">
+                <li class="nav_container__main-menu__item _search">
+                    <a class="nav_container__main-menu__item__link  _parent" href="#">Search</a>
+                    <ul class="submenu _search">
+                        <li>
+                            <form action="#">
+                                <input class="nav_container__main-menu__item__input" type="text" placeholder="Search please">
+                                <button class="nav_container__main-menu__item__submit" type="submit"></button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_container__main-menu__item">
+                    <a class="nav_container__main-menu__item__link _act _parent" href="#">Women</a>
+                    <ul class="submenu _women">
+                        <li class="submenu__item"><span class="submenu__item__heading">Shop by products Women</span>
+                            <ul class="submenu__item__list _first">
+                                <li><a href="#">New in: Clothing</a></li>
+                                <li><a href="#">New in: Accessories</a></li>
+                                <li><a href="#">New in: Shoes</a></li>
+                                <li><a href="#" class="active-link">SALE - Up to 50%</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Caps & Hats</a></li>
+                                <li><a href="#">Jampers & Cardigans</a></li>
+                                <li><a href="#">Leather Jackets</a></li>
+                                <li><a href="#">Shirts</a></li>
+                                <li><a href="#">Shoes, Boots & Trainers</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Trousels & Chinos</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Watches</a></li>
+                                <li><a href="#">Officewear</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><span class="submenu__item__heading">Shop by brands</span>
+                            <ul class="submenu__item__list _second">
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Bellfield</a></li>
+                                <li><a href="#">Cheap Monday</a></li>
+                                <li><a href="#">Esprit</a></li>
+                                <li><a href="#">Farah Vintage</a></li>
+                                <li><a href="#">G-Star</a></li>
+                                <li><a href="#">New Balance</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Ray-Ban</a></li>
+                                <li><a href="#" class="all-brands">A to Z Brands</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="submenu__item"><span class="submenu__item__heading">Most popular</span>
+                            <ul class="submenu__item__list">
+                                <li><a href="#" class="popular"><img src="img/products/popular1.jpg" alt="Popular prod 1"></a></li>
+                                <li><a href="#" class="popular"><img src="img/products/popular2.jpg" alt="Popular prod 2"></a></li>
+                                <li><a href="#">View More Popular</a></li>
+                                <li><a href="#">Today`s New Listings</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="nav_container__main-menu__item"><a class="nav_container__main-menu__item__link  _parent" href="#">Men</a>
+                    <ul class="submenu _men">
+                        <li class="submenu__item"><span class="submenu__item__heading">Shop by products Men</span>
+                            <ul class="submenu__item__list _first">
+                                <li><a href="#">New in: Clothing</a></li>
+                                <li><a href="#">New in: Accessories</a></li>
+                                <li><a href="#">New in: Shoes</a></li>
+                                <li><a href="#" class="active-link">SALE - Up to 50%</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Caps & Hats</a></li>
+                                <li><a href="#">Jampers & Cardigans</a></li>
+                                <li><a href="#">Leather Jackets</a></li>
+                                <li><a href="#">Shirts</a></li>
+                                <li><a href="#">Shoes, Boots & Trainers</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Trousels & Chinos</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Watches</a></li>
+                                <li><a href="#">Officewear</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><span class="submenu__item__heading">Shop by brands</span>
+                            <ul class="submenu__item__list _second">
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Bellfield</a></li>
+                                <li><a href="#">Cheap Monday</a></li>
+                                <li><a href="#">Esprit</a></li>
+                                <li><a href="#">Farah Vintage</a></li>
+                                <li><a href="#">G-Star</a></li>
+                                <li><a href="#">New Balance</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Ray-Ban</a></li>
+                                <li><a href="#" class="all-brands">A to Z Brands</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="submenu__item"><span class="submenu__item__heading">Most popular</span>
+                            <ul class="submenu__item__list">
+                                <li><a href="#" class="popular"><img src="img/products/popular1.jpg" alt="Popular prod 1"></a></li>
+                                <li><a href="#" class="popular"><img src="img/products/popular2.jpg" alt="Popular prod 2"></a></li>
+                                <li><a href="#">View More Popular</a></li>
+                                <li><a href="#">Today`s New Listings</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav_container__main-menu__item"><a class="nav_container__main-menu__item__link  _parent" href="#">Children</a>
+                    <ul class="submenu _children">
+                        <li class="submenu__item"><span class="submenu__item__heading">Shop by products</span>
+                            <ul class="submenu__item__list _first">
+                                <li><a href="#">New in: Clothing</a></li>
+                                <li><a href="#">New in: Accessories</a></li>
+                                <li><a href="#">New in: Shoes</a></li>
+                                <li><a href="#" class="active-link">SALE - Up to 50%</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Caps & Hats</a></li>
+                                <li><a href="#">Jampers & Cardigans</a></li>
+                                <li><a href="#">Leather Jackets</a></li>
+                                <li><a href="#">Shirts</a></li>
+                                <li><a href="#">Shoes, Boots & Trainers</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Trousels & Chinos</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Watches</a></li>
+                                <li><a href="#">Officewear</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><span class="submenu__item__heading">Shop by brands</span>
+                            <ul class="submenu__item__list _second">
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Bellfield</a></li>
+                                <li><a href="#">Cheap Monday</a></li>
+                                <li><a href="#">Esprit</a></li>
+                                <li><a href="#">Farah Vintage</a></li>
+                                <li><a href="#">G-Star</a></li>
+                                <li><a href="#">New Balance</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Ray-Ban</a></li>
+                                <li><a href="#" class="all-brands">A to Z Brands</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="submenu__item"><span class="submenu__item__heading">Most popular</span>
+                            <ul class="submenu__item__list">
+                                <li><a href="#" class="popular"><img src="img/products/popular1.jpg" alt="Popular prod 1"></a></li>
+                                <li><a href="#" class="popular"><img src="img/products/popular2.jpg" alt="Popular prod 2"></a></li>
+                                <li><a href="#">View More Popular</a></li>
+                                <li><a href="#">Today`s New Listings</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav_container__main-menu__item"><a class="nav_container__main-menu__item__link" href="#">Sale</a></li>
+                <li class="nav_container__main-menu__item"><a class="nav_container__main-menu__item__link" href="#">Contact</a></li>
+                <li class="nav_container__main-menu__item"><a class="nav_container__main-menu__item__link" href="#">Locator</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="slider-wrapper ">
+
+        <div class="slider wrapper main">
+            <div class="slider__list">
+                <div class="slider__list__el " data-theme="light">
+
+                    <img src="img/cat.png" alt="Cat" class="slide-img">
+
+                    <div class="slide-descr">
+                        <h2 class="slide-descr__heading">Gentlemen,<br>
+                            this way please</h2>
+                        <p class="slide-descr__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero, eu dignissim enim.
+
+                        </p>
+                        <a href="#" class="slider-descr__view">
+                            View Collection
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="slider__list__el" data-theme="dark">
+
+                    <img src="img/notcat.jpg" alt="Cat" class="slide-img">
+
+                    <div class="slide-descr">
+                        <h2 class="slide-descr__heading">Gentlemen,<br>
+                            this way please</h2>
+                        <p class="slide-descr__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero, eu dignissim enim.
+
+                        </p>
+                        <a href="#" class="slider-descr__view">
+                            View Collection
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="controls">
+            <span class="arrow _left"></span>
+            <span class="arrow _right"></span>
+        </div>
+
+    </div>
+
+</header>
+<main>
+    <article class="about wrapper">
+        <h2 class="article-heading _about">The finest Quality</h2>
+        <section class="about-elements">
+            <div class="about__element d-ib-va-t">
+                <img src="img/about/jacket.jpg" alt="Jackets" class="about__element__img">
+                <span class="about__element__descr">Jackets</span>
+            </div>
+            <div class="about__element d-ib-va-t">
+                <img src="img/about/suits.jpg" alt="Suites" class="about__element__img">
+                <span class="about__element__descr">Suites</span>
+            </div>
+            <div class="about__element d-ib-va-t">
+                <img src="img/about/jarseys.jpg" alt="Jerseys" class="about__element__img">
+                <span class="about__element__descr">Jerseys</span>
+            </div>
+            <div class="about__element d-ib-va-t" >
+                <img src="img/about/shoes.jpg" alt="Shoes" class="about__element__img">
+                <span class="about__element__descr">Shoes</span>
+            </div>
+        </section>
+
+        <p class="about__heading">
+            Mauris Iaculis Porttitor Posuere. Praesent Id Metus Massa
+        </p>
+
+        <p class="about__content">
+            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
+            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
+            eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit.
+        </p>
+
+
+
+    </article>
+
+    <article class="products">
+        <div class="wrapper">
+
+            <h2 class="article-heading _prod"><span>Popular products</span></h2>
+            <p><a href="#" class="products__view-all">View All</a></p>
+
+            <div class="products-row">
+                <div class="product-slider _popular slider">
+                    <div class="slider__list">
+                        <div class="slider__list__el">
+                            <section class="product d-ib-va-t">
+                                <div class="product__descr">
+                                    <img src="img/products/product1.jpg" alt="Prod1" class="product__descr__img">
+                                    <p class="product__descr__text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                    </p>
+                                </div>
+                                <div class="product__price">
+                                    <h2 class="product__price__label">DARK BROGUES</h2>
+                                    <span class="product__price__cost">$ 65.07</span>
+                                </div>
+                                <a href="#" class="product__add">Add to cart</a>
+
+                            </section>
+                        </div>
+                        <div class="slider__list__el">
+                            <section class="product d-ib-va-t">
+                                <div class="product__descr">
+                                    <img src="img/products/product2.jpg" alt="Prod1" class="product__descr__img">
+                                    <p class="product__descr__text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                    </p>
+                                </div>
+                                <div class="product__price">
+                                    <h2 class="product__price__label">DARK BROGUES</h2>
+                                    <span class="product__price__cost">$ 65.07</span>
+                                </div>
+                                <a href="#" class="product__add">Add to cart</a>
+
+                            </section>
+                        </div>
+                        <div class="slider__list__el">
+                            <section class="product _sale d-ib-va-t">
+                                <div class="product__descr">
+                                    <img src="img/products/product3.jpg" alt="Prod1" class="product__descr__img">
+                                    <p class="product__descr__text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                    </p>
+                                </div>
+                                <div class="product__price">
+                                    <h2 class="product__price__label">DARK BROGUES</h2><br>
+                                    <span class="product__price__cost">$ 65.07 </span><span class="product__price__cost_new">$ 38.00</span>
+
+                                </div>
+                                <a href="#" class="product__add">Add to cart</a>
+
+                            </section>
+                        </div>
+                        <div class="slider__list__el">
+                            <section class="product d-ib-va-t">
+                                <div class="product__descr">
+                                    <img src="img/products/product4.jpg" alt="Prod1" class="product__descr__img">
+                                    <p class="product__descr__text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                    </p>
+                                </div>
+                                <div class="product__price">
+                                    <h2 class="product__price__label">DARK BROGUES</h2>
+                                    <span class="product__price__cost">$ 65.07</span>
+                                </div>
+                                <a href="#" class="product__add">Add to cart</a>
+
+                            </section>
+                        </div>
+                        <div class="slider__list__el">
+                            <section class="product d-ib-va-t">
+                                <div class="product__descr">
+                                    <img src="img/products/product4.jpg" alt="Prod1" class="product__descr__img">
+                                    <p class="product__descr__text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                    </p>
+                                </div>
+                                <div class="product__price">
+                                    <h2 class="product__price__label">DARK BROGUES</h2>
+                                    <span class="product__price__cost">$ 65.07</span>
+                                </div>
+                                <a href="#" class="product__add">Add to cart</a>
+
+                            </section>
+                        </div>
+                        <div class="slider__list__el">
+                            <section class="product d-ib-va-t">
+                                <div class="product__descr">
+                                    <img src="img/products/product4.jpg" alt="Prod1" class="product__descr__img">
+                                    <p class="product__descr__text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                    </p>
+                                </div>
+                                <div class="product__price">
+                                    <h2 class="product__price__label">DARK BROGUES</h2>
+                                    <span class="product__price__cost">$ 65.07</span>
+                                </div>
+                                <a href="#" class="product__add">Add to cart</a>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls _product">
+                    <span class="arrow _left"></span>
+                    <span class="arrow _right"></span>
+                </div>
+            </div>
+
+            <h2 class="article-heading _prod"><span>JUST ARRIVED</span></h2>
+            <p><a href="#" class="products__view-all">View All</a></p>
+
+
+
+                <div class="products-row">
+                    <div class="product-slider _just-arrived slider">
+                        <div class="slider__list">
+                            <div class="slider__list__el">
+                                <section class="product d-ib-va-t">
+                                    <div class="product__descr">
+                                        <img src="img/products/product5.jpg" alt="Prod1" class="product__descr__img">
+                                        <p class="product__descr__text">
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <div class="product__price">
+                                        <h2 class="product__price__label">DARK BROGUES</h2>
+                                        <span class="product__price__cost">$ 65.07</span>
+                                    </div>
+                                    <a href="#" class="product__add">Add to cart</a>
+
+                                </section>
+                            </div>
+                            <div class="slider__list__el">
+                                <section class="product d-ib-va-t">
+                                    <div class="product__descr">
+                                        <img src="img/products/product6.jpg" alt="Prod1" class="product__descr__img">
+                                        <p class="product__descr__text">
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <div class="product__price">
+                                        <h2 class="product__price__label">DARK BROGUES</h2>
+                                        <span class="product__price__cost">$ 65.07</span>
+                                    </div>
+                                    <a href="#" class="product__add">Add to cart</a>
+
+                                </section>
+                            </div>
+                            <div class="slider__list__el">
+                                <section class="product _new d-ib-va-t">
+                                    <div class="product__descr">
+                                        <img src="img/products/product7.jpg" alt="Prod1" class="product__descr__img">
+                                        <p class="product__descr__text">
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <div class="product__price">
+                                        <h2 class="product__price__label">DARK BROGUES</h2>
+                                        <span class="product__price__cost">$ 65.07</span>
+                                    </div>
+                                    <a href="#" class="product__add">Add to cart</a>
+
+                                </section>
+                            </div>
+                            <div class="slider__list__el">
+                                <section class="product d-ib-va-t " >
+                                    <div class="product__descr">
+                                        <img src="img/products/product8.jpg" alt="Prod1" class="product__descr__img">
+                                        <p class="product__descr__text">
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <div class="product__price">
+                                        <h2 class="product__price__label">DARK BROGUES</h2>
+                                        <span class="product__price__cost">$ 65.07</span>
+                                    </div>
+                                    <a href="#" class="product__add">Add to cart</a>
+
+                                </section>
+                            </div>
+                            <div class="slider__list__el">
+                                <section class="product d-ib-va-t">
+                                    <div class="product__descr">
+                                        <img src="img/products/product4.jpg" alt="Prod1" class="product__descr__img">
+                                        <p class="product__descr__text">
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <div class="product__price">
+                                        <h2 class="product__price__label">DARK BROGUES</h2>
+                                        <span class="product__price__cost">$ 65.07</span>
+                                    </div>
+                                    <a href="#" class="product__add">Add to cart</a>
+
+                                </section>
+                            </div>
+                            <div class="slider__list__el">
+                                <section class="product d-ib-va-t">
+                                    <div class="product__descr">
+                                        <img src="img/products/product4.jpg" alt="Prod1" class="product__descr__img">
+                                        <p class="product__descr__text">
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+                                        </p>
+                                    </div>
+                                    <div class="product__price">
+                                        <h2 class="product__price__label">DARK BROGUES</h2>
+                                        <span class="product__price__cost">$ 65.07</span>
+                                    </div>
+                                    <a href="#" class="product__add">Add to cart</a>
+
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls _product">
+                        <span class="arrow _left"></span>
+                        <span class="arrow _right"></span>
+                    </div>
+                </div>
+
+
+
+
+
+
+        </div>
+    </article>
+
+    <div class="additions wrapper">
+        <div class="additions__element d-ib-va-t">
+            <div class="additions__element__img">
+                <img src="img/cup.png" alt="Cup">
+            </div>
+            <p class="additions__element__title">
+                Daily edit
+            </p>
+
+            <p class="additions__element__descr">
+                The best of New edited for work, weekends and going out.
+            </p>
+            <a href="#" class="additions__element__link">
+                view daily edit
+            </a>
+        </div>
+        <div class="additions__element d-ib-va-t">
+            <div class="additions__element__img">
+                <img src="img/look.png" alt="Look">
+            </div>
+            <p class="additions__element__title">
+                OUTFITS & LOOKS
+            </p>
+
+            <p class="additions__element__descr">
+                Create outfits, share and
+                rate looks. adawda wdawdawd awddwa
+            </p>
+            <a href="#" class="additions__element__link">
+                VIEW FASHION FINDER
+            </a>
+        </div>
+        <div class="additions__element d-ib-va-t">
+            <div class="additions__element__img">
+                <img src="img/book.png" alt="Book">
+            </div>
+            <p class="additions__element__title">
+                MAGAZINE
+            </p>
+
+            <p class="additions__element__descr">
+                UNISHOP Magazine free to your iPhone every week.
+            </p>
+            <a href="#" class="additions__element__link">
+                DOWNLOAD MAGAZINE
+            </a>
+        </div>
+    </div>
+    <div class="twitter">
+        <div class="wrapper">
+            <h3 class="twitter__heading"><strong>Tim Vandim</strong> via Twitter</h3>
+            <p  class="twitter__text">
+                Lorem ipsum dolor sit amet, <a href="http://twitter.com">unishop</a> consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut.
+            </p>
+        </div>
+    </div>
+    <div class="locator">
+
+        <h3 class="locator__heading">Worldwide store locator</h3>
+
+        <div class="wrapper">
+            <form action="#">
+                <p><input type="text" name="zip" class="locator__input-zip" placeholder="Zip-code or Address"></p>
+                <p class="locator__radius">Radius: <span class="radius-dimension">25 Miles</span>
+                    <span class="radius-controls">
+                        <span class="radius-plus"></span>
+                        <span class="radius-minus"></span>
+                    </span>
+                    <input name="radius" type="hidden" value="25">
+                </p>
+
+                <p><input class="locator__radius__submit" type="submit" value="Find a store"></p>
+            </form>
+        </div>
+
+    </div>
+</main>
+<footer>
+    <div class="wrapper clear-after">
+        <div class="footer-block _about-us">
+            <h3 class="footer__about-us__heading">Unishop</h3>
+            <p class="footer__about-us__text">Your about us information would fit here nicely.</p>
+            <ul class="footer__about-us__social">
+
+                    <li><a href="#" class="footer__about-us__social__item icon-inst"></a></li>
+                   <li><a href="#" class="footer__about-us__social__item icon-twitter"></a></li>
+                   <li><a href="#" class="footer__about-us__social__item icon-youtube"></a></li>
+                    <li><a href="#" class="footer__about-us__social__item icon-vimeo"></a></li>
+                   <li><a href="#" class="footer__about-us__social__item icon-cloud"></a></li>
+                   <li><a href="#" class="footer__about-us__social__item icon-google"></a></li>
+                    <li><a href="#" class="footer__about-us__social__item icon-blogger"></a></li>
+
+            </ul>
+
+        </div>
+        <div class="footer-block _links">
+            <h3 class="footer-block__heading">Links</h3>
+            <ul class="footer__link-list">
+                <li><a href="#" >About Us</a></li>
+                <li><a href="#" >Terms & Conditions</a></li>
+                <li><a href="#" >Customer Service</a></li>
+                <li><a href="#" >Careers</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-block _blogs">
+            <h3 class="footer-block__heading">Blogs</h3>
+            <ul class="footer__blog-list">
+                <li>
+                    <h4><a href="#" >Article Headline fit here perfectly</a></h4>
+                    <p>Nulla facilisi. Duis aliquet egestas purus in blandit.</p>
+                </li>
+                <li>
+                    <h4><a href="#" >Article Headline fit here perfectly</a></h4>
+                    <p>Nulla facilisi. Duis aliquet egestas purus in blandit.</p>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="footer-block _newslatter">
+            <h3 class="footer-block__heading">Newslatter</h3>
+
+
+            <form action="#">
+                <p>
+                    <input type="email" class="newslatter-email-input" name="newslatterEmail" placeholder="Putt your E-Mail">
+                </p>
+
+                    <ul class="dropable bottom-drop" data-name="dropable">
+                        <li data-value="abc-val">abc</li>
+                        <li data-value="abc-val">abc1</li>
+                        <li data-value="abc-val">abc2</li>
+                    </ul>
+                
+                <p>
+                    <input type="submit" value="Subscribe" class="newslatter-email-submit" >
+                </p>
+
+            </form>
+
+
+        </div>
+    </div>
+</footer>
+
+<div class="livechat" id="livechat">
+    <div class="livechat__heading"  id="livechat-head">
+        Personal Assistent - Live chat
+        <span class="livechat__close"></span>
+    </div>
+    <div class="livechat__body">
+        <div class="livechat__body__greating">Welcome!</div>
+        <p class="livechat__body__descr">Please note, UNISHOP Stylists are not able to assist with Customer Care enquiries.</p>
+
+        <p ><input type="text" placeholder="Name" class="livechat__body__input _name"></p>
+
+        <p ><input type="email" placeholder="Email address" class="livechat__body__input _email"></p>
+
+        <p ><input type="submit" class="livechat__body__submit" value="Start Chat"></p>
+
+
+    </div>
+</div>
+
+<div class="question">
+
+    <div class="question__arrow">
+        <div class="question__arrow__assistant">Personal Aasistent</div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="js/main.js"></script>
+
+
+
+<!--[if (IE 8) && (IE 9)]>
+<script src="js/jquery.placeholder.min.js"></script>
+
+<script >
+    $(function(){
+        $('input, textarea').placeholder();
+    });
+</script>
+<![endif]-->
+</body>
+</html>
