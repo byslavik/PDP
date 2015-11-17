@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dced2ec-690d-4590-acd3-ded640c03510" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tablet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/Instagram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/blogger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/google.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/sound-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/vimeo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social/youtube.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="$PROJECT_DIR$/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="PDPproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +37,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2771087">
-              <caret line="84" column="53" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="53" />
+            <state vertical-scroll-proportion="-5.090909">
+              <caret line="741" column="0" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
               <folding>
-                <marker date="1447675327275" expanded="true" signature="40509:40673" placeholder="..." />
-                <marker date="1447675327275" expanded="true" signature="40612:40663" placeholder="{...}" />
+                <marker date="1447744523944" expanded="true" signature="40828:40992" placeholder="..." />
+                <marker date="1447744523944" expanded="true" signature="40931:40982" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,18 +50,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0909091">
-              <caret line="1069" column="19" selection-start-line="1069" selection-start-column="19" selection-end-line="1069" selection-end-column="19" />
+            <state vertical-scroll-proportion="-5.090909">
+              <caret line="1635" column="10" selection-start-line="1635" selection-start-column="10" selection-end-line="1635" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9190476">
-              <caret line="448" column="4" selection-start-line="448" selection-start-column="4" selection-end-line="448" selection-end-column="4" />
+            <state vertical-scroll-proportion="-14.036364">
+              <caret line="448" column="0" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,13 +87,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="495" column="16" selection-start-line="495" selection-start-column="16" selection-end-line="495" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.35219398">
+              <caret line="386" column="17" selection-start-line="386" selection-start-column="17" selection-end-line="386" selection-end-column="17" />
               <folding>
-                <element signature="n#!!doc;n#selectRadius#0" expanded="false" />
+                <element signature="n#!!doc;n#htmlSpecialChars#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,10 +123,10 @@
         <option value="$USER_HOME$/Downloads/test/Test/css/style.css" />
         <option value="$PROJECT_DIR$/css/tablet.css" />
         <option value="$PROJECT_DIR$/css/ie.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -310,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -352,8 +356,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447675327275" expanded="true" signature="40509:40673" placeholder="..." />
-            <marker date="1447675327275" expanded="true" signature="40612:40663" placeholder="{...}" />
+            <marker date="1447744523944" expanded="true" signature="40828:40992" placeholder="..." />
+            <marker date="1447744523944" expanded="true" signature="40931:40982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -395,7 +399,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="401" column="95" selection-start-line="401" selection-start-column="95" selection-end-line="401" selection-end-column="95" />
           <folding>
-            <element signature="n#!!doc;n#selectRadius#0" expanded="false" />
+            <element signature="n#!!doc;n#htmlSpecialChars#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -405,8 +409,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
-            <marker date="1447675327275" expanded="true" signature="40509:40673" placeholder="..." />
-            <marker date="1447675327275" expanded="true" signature="40612:40663" placeholder="{...}" />
+            <marker date="1447744523944" expanded="true" signature="40828:40992" placeholder="..." />
+            <marker date="1447744523944" expanded="true" signature="40931:40982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -424,15 +428,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="n#!!doc;n#selectRadius#0" expanded="false" />
+            <element signature="n#!!doc;n#htmlSpecialChars#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="190" selection-start-line="47" selection-start-column="190" selection-end-line="47" selection-end-column="190" />
         </state>
       </provider>
     </entry>
@@ -455,13 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3988827">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -516,17 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2771087">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="53" />
-          <folding>
-            <marker date="1447675327275" expanded="true" signature="40509:40673" placeholder="..." />
-            <marker date="1447675327275" expanded="true" signature="40612:40663" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/tablet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7307692">
@@ -535,29 +514,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="495" column="16" selection-start-line="495" selection-start-column="16" selection-end-line="495" selection-end-column="16" />
+        <state vertical-scroll-proportion="-14.036364">
+          <caret line="448" column="0" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.090909">
+          <caret line="741" column="0" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc;n#selectRadius#0" expanded="false" />
+            <marker date="1447744523944" expanded="true" signature="40828:40992" placeholder="..." />
+            <marker date="1447744523944" expanded="true" signature="40931:40982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0909091">
-          <caret line="1069" column="19" selection-start-line="1069" selection-start-column="19" selection-end-line="1069" selection-end-column="19" />
+        <state vertical-scroll-proportion="-5.090909">
+          <caret line="1635" column="10" selection-start-line="1635" selection-start-column="10" selection-end-line="1635" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9190476">
-          <caret line="448" column="4" selection-start-line="448" selection-start-column="4" selection-end-line="448" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.35219398">
+          <caret line="386" column="17" selection-start-line="386" selection-start-column="17" selection-end-line="386" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc;n#htmlSpecialChars#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

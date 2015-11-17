@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -35,8 +36,10 @@
                 <div class="ready-currency-country">
                     <span class="ready-country"></span>
                     <span class="ready-currency"></span>
+
                 </div>
                 <div class="currency-country" data-name="selectCountry">
+                    <span class="currency-country-close"></span>
                     <div class="currency-country__selected">
 
                     </div>
@@ -87,7 +90,7 @@
                     <a class="nav_container__main-menu__item__link  _parent" href="#">Search</a>
                     <ul class="submenu _search">
                         <li>
-                            <form action="#">
+                            <form action="#" name="search">
                                 <input class="nav_container__main-menu__item__input" type="text" placeholder="Search please">
                                 <button class="nav_container__main-menu__item__submit" type="submit"></button>
                             </form>
@@ -641,7 +644,7 @@
         <h3 class="locator__heading">Worldwide store locator</h3>
 
         <div class="wrapper">
-            <form action="#">
+            <form action="#" name="zip">
                 <p><input type="text" name="zip" class="locator__input-zip" placeholder="Zip-code or Address"></p>
                 <p class="locator__radius">Radius: <span class="radius-dimension">25 Miles</span>
                     <span class="radius-controls">
@@ -705,7 +708,7 @@
             <h3 class="footer-block__heading">Newslatter</h3>
 
 
-            <form action="#">
+            <form action="#" name="subscribe">
                 <p>
                     <input type="email" class="newslatter-email-input" name="newslatterEmail" placeholder="Putt your E-Mail">
                 </p>
@@ -728,22 +731,24 @@
 </footer>
 
 <div class="livechat" id="livechat">
-    <div class="livechat__heading"  id="livechat-head">
-        Personal Assistent - Live chat
-        <span class="livechat__close"></span>
-    </div>
-    <div class="livechat__body">
-        <div class="livechat__body__greating">Welcome!</div>
-        <p class="livechat__body__descr">Please note, UNISHOP Stylists are not able to assist with Customer Care enquiries.</p>
+    <form action="#" name="livechat">
+        <div class="livechat__heading"  id="livechat-head">
+            Personal Assistent - Live chat
+            <span class="livechat__close"></span>
+        </div>
+        <div class="livechat__body">
+            <div class="livechat__body__greating">Welcome!</div>
+            <p class="livechat__body__descr">Please note, UNISHOP Stylists are not able to assist with Customer Care enquiries.</p>
 
-        <p ><input type="text" placeholder="Name" class="livechat__body__input _name"></p>
+            <p ><input type="text" placeholder="Name" class="livechat__body__input _name"></p>
 
-        <p ><input type="email" placeholder="Email address" class="livechat__body__input _email"></p>
+            <p ><input type="email" placeholder="Email address" class="livechat__body__input _email"></p>
 
-        <p ><input type="submit" class="livechat__body__submit" value="Start Chat"></p>
+            <p ><input type="submit" class="livechat__body__submit" value="Start Chat"></p>
 
 
-    </div>
+        </div>
+    </form>
 </div>
 
 <div class="question">
@@ -751,6 +756,10 @@
     <div class="question__arrow">
         <div class="question__arrow__assistant">Personal Aasistent</div>
     </div>
+</div>
+
+<div class="modal">
+    Thank you
 </div>
 
 <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
