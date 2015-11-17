@@ -2,10 +2,13 @@
     width: 300px;
 
 }
+/* tabs */
 .tabs__container__sticker,
 .header-content__currency{
     display: none;
 }
+
+/* main menu */
 .hamburger{
     display: inline-block;
 }
@@ -180,6 +183,24 @@ font-family: "Oswald Regular";
 }
 
 
+.nav_container__main-menu__item{
+    display: block;
+    width: 100%;
+}
+
+
+.nav_container__main-menu__item._search{
+    float: none;
+
+}
+.nav_container__main-menu__item._search a{
+    display: block;
+
+}
+
+
+/* cart */
+
 .cart-link, .account-link a{
     font-size:0;
     padding:0 !important;
@@ -261,22 +282,6 @@ font-family: "Oswald Regular";
     border-left: 1px solid #d2d0d0;
 }
 
-/* main menu */
-
-.nav_container__main-menu__item{
-    display: block;
-    width: 100%;
-}
-
-
-.nav_container__main-menu__item._search{
-    float: none;
-
-}
-.nav_container__main-menu__item._search a{
-    display: block;
-
-}
 
 /* slider */
 
