@@ -1643,8 +1643,8 @@ footer .footer-block:first-child{
 }
 
 .question__arrow{
-    width: 55px;
     height:56px;
+    width: 55px;
     position: absolute;
     font-size: 40px;
     font-size: 2.5rem;
